@@ -4,6 +4,20 @@ const chatContainer = document.querySelector(".chat-container");
 const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 
+const apiUrl = 'https://example.com/api/data';  // Replace with the URL of your backend API
+
+// Make a GET request to the backend API
+fetch(apiUrl)
+  .then(response => response.json())
+  .then(data => {
+    // Process the response data
+    console.log(data);
+  })
+  .catch(error => {
+    // Handle any errors
+    console.error('Error:', error);
+  });
+
 
 let userText = null;
 const API_KEY = "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"; // Paste your API key here
