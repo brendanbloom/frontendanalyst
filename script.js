@@ -1,4 +1,4 @@
-const apiUrl = 'https://github.com/brendanbloom/frontendanalyst/blob/main/main.py';  // Replace with the URL of your backend API
+const apiUrl = 'https://brendanbloom.github.io/backendanalyst/';  // Replace with the URL of your backend API
 
 // Make a GET request to the backend API
 fetch(apiUrl)
