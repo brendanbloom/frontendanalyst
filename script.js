@@ -1,4 +1,4 @@
-const apiUrl = 'https://github.com/brendanbloom/backendanalyst.git';  // Replace with the URL of your backend API
+const apiUrl = 'https://brendanbloom.github.io/backendanalyst/';  // Replace with the URL of your backend API
 
 fetch(apiUrl)
   .then(response => response.json())
